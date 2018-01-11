@@ -10,12 +10,13 @@ See the commented sections at the top of the python file for degree of success. 
 ### How To Run
 To train the model and evaluate it on the validation set, use:
 ```
-python classifier.py train.txt  dev.txt
+python classifier.py train.txt  dev.txt [stopwords_mini.txt]
 ```
 Once the model's parameters are fine tuned using the validation set, use the following to train and evaluate on the test set:
 ```
-python classifier.py train.txt  test.txt
+python classifier.py train.txt  test.txt [stopwords_mini.txt]
 ```
+The stop words file is optional. It should not be in brackets when actually running.
 
 ### Dataset
 The included dataset can be found here:
