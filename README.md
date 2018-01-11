@@ -2,7 +2,7 @@
 COMS W4701 Artificial Intelligence Programming HW 3: Bayesian Classification of Spam Text Messages
 
 
-# Data Set
+### Data Set
 The included data set can be found here:
 https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
 
